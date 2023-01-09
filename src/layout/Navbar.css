@@ -1,0 +1,54 @@
+.nav-wrapper input {
+    background-color: transparent;
+    color: white;
+    width: 100%;
+    border-radius: 8px;
+    border: 2px solid #6b6e7a;
+    height: 40px;
+    padding-left: 50px;
+    margin-top: 12px;
+}
+
+.nav-wrapper input:focus {
+    background-color: transparent;
+    color: white;
+
+}
+
+.nav-search-icon {
+    position: absolute;
+    top: -5px;
+    left: 0;
+    width: 50px !important;
+    height: 50px !important;
+    padding: 0px 10px !important;
+    color: #6b6e7a !important;
+}
+
+
+.nav-tab {
+    height: 75px;
+    background: #42475a
+}
+
+.active {
+    background: rgb(27, 127, 153) !important;
+    background: linear-gradient(180deg, rgba(27, 127, 153, 1) 0%, rgba(27, 127, 153, 0) 100%) !important;
+    border-left: 1px solid #1d7c96 !important;
+    border-right: 1px solid #1d7c96  !important;
+    height: 75px;
+}
+
+.borders {
+    border-left: 1px solid rgba(77, 77, 77, 0.396);
+    border-right: 1px solid rgba(0, 0, 0, 0.396);
+}
+
+.borders:nth-child(4) {
+    border-right: none !important;
+}
+
+.borders:nth-child(5) {
+    border: none !important;
+    background: #3a3d4d
+}

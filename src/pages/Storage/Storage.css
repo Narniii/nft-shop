@@ -1,0 +1,13 @@
+.storage-custom-inputs-wrapper .form-control {
+    background-color: transparent;
+    border: 1px solid #606370;
+    color: white;
+    height: 50px;
+}
+
+.storage-custom-inputs-wrapper .form-control:focus {
+    background-color: transparent;
+    border: 1px solid #606370;
+    color: white;
+    height: 50px;
+}

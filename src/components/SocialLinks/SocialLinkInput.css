@@ -1,0 +1,14 @@
+.social-input-wrapper:focus-within {
+    border: 1px solid #86b7fe !important;
+    transition: #86b7fe .1s ease-in-out, #29436e .1s ease-in-out,
+
+}
+
+.social-input-wrapper input {
+    border: none;
+    background-color: transparent;
+    resize: none;
+    outline: none;
+    outline-width: 0;
+    color: white;
+}

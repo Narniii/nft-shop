@@ -1,0 +1,53 @@
+/* Those futur buttons */
+
+.event-card li {
+    display: inline;
+    list-style: none;
+    padding-right: 30px;
+    color: #7B7B7B;
+    font-size: 30px !important;
+}
+
+
+@media (max-width: 576px) {
+    .slider-container {
+        width: 100%;
+        margin: 0 auto
+    }
+}
+
+@media only screen and (max-width: 1000px) and (min-width: 800px) {
+    .event-card ul {
+        bottom:50px !important
+    }
+    .event-card li {
+        padding-right: 0px;
+        display: inline;
+        list-style: none;
+        color: #7B7B7B;
+        font-size: 30px !important;
+    }
+
+}
+
+@media only screen and (max-width: 1200px) and (min-width: 1000px) {
+    .event-card li {
+        padding-right: 0px;
+        display: inline;
+        list-style: none;
+        color: #7B7B7B;
+        font-size: 30px !important;
+    }
+
+}
+
+@media only screen and (max-width: 1400px) and (min-width: 1200px) {
+    .event-card li {
+        padding-right: 20px;
+        display: inline;
+        list-style: none;
+        color: #7B7B7B;
+        font-size: 30px !important;
+    }
+
+}

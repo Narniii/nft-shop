@@ -1,0 +1,91 @@
+.create-collection-inputs-wrapper .form-control {
+    background-color: #33343f !important;
+    border: 1px solid #606370;
+    color: white;
+    height: 50px;
+}
+
+.create-collection-inputs-wrapper textarea {
+    background-color: #33343f !important;
+    border: 1px solid #606370;
+    color: white;
+    min-height: 250px;
+}
+
+.create-collection-inputs-wrapper select {
+    background-color: #33343f;
+    border: 1px solid #606370;
+    color: white;
+}
+
+.create-collection-inputs-wrapper option {
+    background-color: #606370;
+    color: white;
+    margin: 2px 0px;
+}
+
+.create-collection-inputs-wrapper .form-control:focus {
+    background-color: #33343f !important;
+    color: white;
+    min-height: 50px;
+}
+
+.create-collection-inputs-wrapper .form-control::-webkit-scrollbar {
+    display: none;
+}
+
+.create-collection-links-wrapper .form-control {
+    border-radius: 0rem !important;
+}
+
+.create-collection-links-wrapper .form-control:first-child {
+    border-top-right-radius: 0.25rem !important;
+    border-top-left-radius: 0.25rem !important;
+    border-bottom-right-radius: 0rem !important;
+    border-bottom-left-radius: 0rem !important;
+}
+
+.create-collection-links-wrapper .form-control:last-child {
+    border-bottom-right-radius: 0.25rem !important;
+    border-bottom-left-radius: 0.25rem !important;
+    border-top-right-radius: 0rem !important;
+    border-top-left-radius: 0rem !important;
+}
+
+.create-col-reveal-wrapper .MuiCalendarPicker-root {
+    background: #494b58 !important;
+
+}
+
+.create-col-reveal-wrapper label {
+    color: white;
+}
+
+.create-col-reveal-wrapper .Mui-focused {
+    color: white !important;
+}
+
+.create-col-reveal-wrapper svg {
+    color: white;
+    font-size: 25px;
+}
+
+.create-col-reveal-wrapper input {
+    color: white;
+}
+
+.create-col-select-wrapper div {
+    color: white;
+}
+
+.create-col-select-wrapper label {
+    color: white;
+}
+
+.create-col-select-wrapper input {
+    color: white;
+}
+
+.create-col-select-wrapper .Mui-focused {
+    color: white !important;
+}

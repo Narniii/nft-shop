@@ -1,0 +1,286 @@
+.nft-custom-inputs-wrapper .form-control {
+  background-color: transparent;
+  border: 1px solid #606370;
+  color: white;
+  height: 50px;
+}
+
+.nft-custom-inputs-wrapper .form-control:focus {
+  background-color: transparent;
+  border: 1px solid #606370;
+  color: white;
+  height: 50px;
+}
+
+.nft-custom-inputs-wrapper textarea {
+  background-color: transparent;
+  border: 1px solid #606370;
+  color: white;
+  min-height: 250px;
+}
+
+.nft-custom-inputs-wrapper select {
+  background-color: transparent;
+  border: 1px solid #606370;
+  color: white;
+}
+
+.nft-custom-inputs-wrapper option {
+  background-color: #606370;
+  color: white;
+  margin: 2px 0px;
+}
+
+/*  --------------------------------------------- SINGLE NFT PAGE ---------------------------------------------  */
+
+.containerr {
+  min-height: 100vh;
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: 5%;
+  /* padding: 0 10%; */
+}
+
+.nftContent {
+  /* height: 80vh; */
+  width: 100%;
+  background-color: #3a3d4d;
+  border-radius: 15px;
+  display: flex;
+  /* flex-direction: row; */
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.nftImage {
+  width: 60%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.nftImageBackground {
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: blur(50px);
+  z-index: 0;
+}
+
+.nftImageForeground {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  /* width: 550px;
+  height: 550px; */
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  position: absolute;
+  box-shadow: 2px 1px 13px -3px rgba(58, 61, 77, 0.67);
+}
+
+.nftDetails {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.nftShortInfo {
+  width: 100%;
+  flex-grow: 1;
+  /* border: red 1px solid; */
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.nftLongInfo {
+  width: 100%;
+  flex-grow: 5;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  overflow-y: scroll;
+  /* border: 1px solid #606370; */
+}
+
+.nftLongInfo::-webkit-scrollbar {
+  width: 3px;
+  background-color: #606370;
+  visibility: hidden;
+}
+
+.nftLongInfo::-webkit-scrollbar-button {
+  width: 2px;
+  color: #606370;
+}
+
+.buyButtons {
+  width: 100%;
+  /* flex-grow: 1; */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px 20px;
+  /* border: purple 1px solid; */
+}
+
+.buyButtons button {
+  width: 100px;
+  height: 55px;
+  /* font-weight: bold; */
+  border-radius: 15px;
+  border: none;
+  color: white;
+  -moz-transition: all 0.2s ease-in;
+  -o-transition: all 0.2s ease-in;
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+  background: #606370;
+  margin: 0 5px;
+}
+
+.buyButtons button:hover {
+  background: #606380;
+}
+
+.buyButtons a {
+  width: auto;
+  height: auto;
+  margin: 0;
+}
+
+.nftLongInfo .MuiTab-root {
+  padding: 10px !important;
+}
+
+.nftLongInfo .Mui-selected {
+  padding: 10px !important;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+.new-mint-wrap {
+  white-space: pre-wrap;
+  /* CSS3 */
+  white-space: -moz-pre-wrap;
+  /* Firefox */
+  white-space: -pre-wrap;
+  /* Opera <7 */
+  white-space: -o-pre-wrap;
+  /* Opera 7 */
+  word-wrap: break-word;
+  /* IE */
+}
+
+.nft-single-accardeon-wrapper .MuiTab-root {
+  background: #434658 !important;
+  border: 2px solid #696b79 !important;
+  border-top-left-radius: 10px !important;
+  border-top-right-radius: 10px !important;
+  height: 55px !important;
+  color: white !important;
+  font-size: 12px;
+  padding: 20px !important;
+
+}
+
+.nft-single-accardeon-wrapper .Mui-selected {
+  background: rgb(27, 127, 153) !important;
+  background: linear-gradient(180deg, rgba(27, 127, 153, 1) 0%, rgba(27, 127, 153, 0) 100%) !important;
+  border: 2px solid #0b96b3 !important;
+  padding: 20px !important;
+  height: 65px !important;
+  color: white !important;
+}
+
+.nft-single-accardeon-wrapper .MuiOutlinedInput-root {
+  color: white !important;
+  border-color: white !important;
+}
+
+.nft-single-accardeon-wrapper .MuiOutlinedInput-root fieldset {
+  color: white !important;
+  border-color: white !important;
+}
+
+.nft-single-accardeon-wrapper .MuiInputLabel-root {
+  color: white !important;
+}
+
+.nft-single-accardeon-wrapper .MuiAccordion-root {
+  background-color: transparent !important;
+  color: white !important;
+  margin: 2px 0px !important;
+  box-shadow: none !important;
+}
+
+.nft-single-accardeon-wrapper .MuiAccordionSummary-root {
+  border-radius: 10px !important;
+  border: 2px solid white !important;
+
+}
+
+@media(max-width:768px) {
+  .nft-single-accardeon-wrapper .MuiTab-root {
+    font-size: 10px;
+    padding: 1px 5px !important;
+    min-width: 50px !important;
+  }
+
+  .nft-single-accardeon-wrapper .Mui-selected {
+    font-size: 10px;
+    padding: 1px 5px !important;
+    min-width: 50px !important;
+
+  }
+}
+
+@media(min-width:990px) {
+  .nft-single-accardeon-wrapper .MuiTab-root {
+    font-size: 10px;
+    padding: 1px 15px !important;
+    min-width: 50px !important;
+  }
+
+  .nft-single-accardeon-wrapper .Mui-selected {
+    font-size: 10px;
+    padding: 1px 15px !important;
+    min-width: 50px !important;
+
+  }
+}
+
+@media(min-width:1200px) {
+  .nft-single-accardeon-wrapper .MuiTab-root {
+    font-size: 10px;
+    padding: 1px 20px !important;
+    min-width: 50px !important;
+  }
+
+  .nft-single-accardeon-wrapper .Mui-selected {
+    font-size: 10px;
+    padding: 1px 20px !important;
+    min-width: 50px !important;
+
+  }
+}

@@ -1,0 +1,122 @@
+.slick-dots li button:before {
+  color: transparent !important
+}
+
+.slick-dots {
+  position: relative !important;
+}
+
+.slider-parent {
+  padding: 0px 60px
+}
+
+.slider-container {
+  width: 90%;
+  margin: 0 auto
+}
+
+.overFlowHandler ::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.overFlowHandler {
+  -ms-overflow-style: none !important;
+  /* IE and Edge */
+  scrollbar-width: none !important;
+  /* Firefox */
+}
+
+.bgImageCommon {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.mobile-only {
+  display: none;
+}
+
+.tablet-only {
+  display: none;
+}
+
+.introduction {
+  /* margin: 40px auto; */
+  /* width: 100vw; */
+  /* margin-top: 20px; */
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  text-align: justify;
+  position: relative;
+  color: white;
+  margin: 0 auto;
+  /* padding-left: 8%; */
+  scroll-behavior: smooth;
+  padding-top: 22px;
+  /* background: rgb(15, 45, 62);
+  background: linear-gradient(
+    45deg,
+    rgba(15, 45, 62, 1) 65%,
+    rgba(20, 64, 71, 1) 100%
+  ); */
+
+  background: rgb(20, 63, 70);
+  background: linear-gradient(180deg,
+      rgba(20, 63, 70, 1) 20%,
+      rgba(15, 45, 62, 1) 100%);
+
+  /* padding-bottom: 20px; */
+}
+
+.background {
+  position: absolute;
+  background-image: url("./svg/main_logo.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  overflow: visible;
+  width: 60%;
+  height: 95%;
+  float: right;
+  right: 2%;
+}
+
+@media (max-width: 576px) {
+  .slider-container {
+    width: 100%;
+    margin: 0 auto
+  }
+
+  .no-mobile {
+    display: none;
+  }
+
+  .mobile-only {
+    display: block;
+  }
+
+  .slider-parent {
+    padding: 0px 25px
+  }
+
+}
+
+@media only screen and (max-width: 800px) and (min-width: 576px) {
+  .no-mobile {
+    display: none;
+  }
+
+  .mobile-only {
+    display: none;
+  }
+
+  .tablet-only {
+    display: block;
+  }
+
+}

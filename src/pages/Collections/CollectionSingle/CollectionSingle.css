@@ -1,0 +1,115 @@
+.collection-banner {
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.collection-thumbnail {
+    height: 120px;
+    width: 120px;
+    border-radius: 60px;
+    position: absolute;
+    bottom: -50px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #3a3d4d;
+    border: 2px solid #606370;
+    border-radius: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.collection-thumbnail-image {
+    height: 100px;
+    width: 100px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 50px;
+}
+
+.MuiTabs-flexContainer {
+    align-items: flex-end;
+    justify-content: center !important;
+}
+
+.css-1gsv261 {
+    border-bottom: 3px solid !important;
+    border-color: #15768d !important;
+}
+
+.accardeon-wrapper .MuiTab-root {
+    background: #434658 !important;
+    border: 2px solid #696b79 !important;
+    border-top-left-radius: 10px !important;
+    border-top-right-radius: 10px !important;
+    height: 55px !important;
+    color: white !important;
+    font-size: 12px;
+    padding: 20px !important;
+
+}
+
+.accardeon-wrapper .Mui-selected {
+    background: rgb(27, 127, 153) !important;
+    background: linear-gradient(180deg, rgba(27, 127, 153, 1) 0%, rgba(27, 127, 153, 0) 100%) !important;
+    border: 2px solid #0b96b3 !important;
+    padding: 20px !important;
+    height: 65px !important;
+    color: white !important;
+}
+
+.accardeon-wrapper .MuiOutlinedInput-root {
+    color: white !important;
+    border-color: white !important;
+}
+
+.accardeon-wrapper .MuiOutlinedInput-root fieldset {
+    color: white !important;
+    border-color: white !important;
+}
+
+.accardeon-wrapper .MuiInputLabel-root {
+    color: white !important;
+}
+
+.accardeon-wrapper .MuiAccordion-root {
+    background-color: transparent !important;
+    color: white !important;
+    margin: 2px 0px !important;
+    box-shadow: none !important;
+}
+
+.accardeon-wrapper .MuiAccordionSummary-root {
+    border-radius: 10px !important;
+    border: 2px solid white !important;
+
+}
+
+.links-row a {
+    color: white;
+    font-size: 30px;
+}
+
+
+.links-row a:hover {
+    color: white;
+}
+
+
+@media(max-width:600px) {
+
+    .accardeon-wrapper .MuiTab-root {
+        font-size: 10px;
+        padding: 1px 10px !important;
+        min-width: 50px !important;
+    }
+
+    .accardeon-wrapper .Mui-selected {
+        font-size: 10px;
+        padding: 1px 10px !important;
+        min-width: 50px !important;
+
+    }
+}
